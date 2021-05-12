@@ -12,11 +12,39 @@ body {
     background-position: right top;
     display: flex;
     flex-direction: column;
+    font-family: 'Karla', sans-serif;
 }
 
 header {
     background-color: #000000AA;
     height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.links ul {
+    display: flex;
+    gap: 20px;
+    color: white;
+    list-style: none;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    user-select: none;
+    transition: all 1s;
+}
+
+.links a:hover {
+    color: red;
 }
 
 main {
