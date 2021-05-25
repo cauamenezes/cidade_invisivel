@@ -12,7 +12,7 @@ body {
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left top;
+    background-position: center top;
     display: flex;
     flex-direction: column;
     font-family: 'Karla', sans-serif;
@@ -65,9 +65,9 @@ main h3 {
 
 .geral {
     display: flex;
-    justify-content: space-between;
     max-width: 50vw;
     margin-top: 60px;
+    justify-content: space-evenly;
 }
 
 .paragrafo {
