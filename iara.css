@@ -7,12 +7,12 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-image: url(img/curupira.png);
+    background-image: url(img/iara.png);
     background-color: #00000055;
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center top;
+    background-position: left top;
     display: flex;
     flex-direction: column;
     font-family: 'Karla', sans-serif;
