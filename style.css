@@ -32,10 +32,8 @@ header {
 }
 
 .links ul {
-    display: flex;
     gap: 20px;
-    color: white;
-    list-style: none;
+    list-style-type: none;
 }
 
 .links a {

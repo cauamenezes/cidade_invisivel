@@ -1,0 +1,31 @@
+.menu {
+    display: flex;
+    gap: 1px;
+}
+
+.dp-submenu{
+    margin-top: 1px;
+    display: none;
+    position: absolute;
+    padding-top: 23px;
+}
+
+.dp-submenu a {
+    width: 120%;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #000000AA;
+    float: inline-end;
+    position: relative;
+    padding: 2.5px 0;
+    padding-left: 5px;
+    border-left: 3px solid transparent;
+}
+
+.menu li:hover > .dp-submenu{
+    display: block;
+}
+
+.dp-submenu a:hover {
+    border-left: 3px solid #D81F26;
+}
