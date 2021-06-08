@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/fundo-sobre.jpg);
+    background-color: #00000055;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Karla', sans-serif;
+    color: white;
+}
+
+header {
+    background-color: #000000AA;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.links ul {
+    gap: 20px;
+    list-style-type: none;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    user-select: none;
+    transition: all 1s;
+}
+
+.links a:hover {
+    color: red;
+}
+
+main {
+    padding:25vh 10vw;
+    flex-grow: 1;
+}
+
+main h3 {
+    transform: rotate(270deg);
+    color: red;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.geral {
+    display: flex;
+    max-width: 50vw;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+
+.paragrafo {
+    display: flex;
+}
+
+.biografia {
+    font-size: 20px;
+    font-weight: 200; 
+    max-width: 35vw;
+    font-style: italic;
+}
+
+.barra {
+    font-size: 40px;
+    color: red;
+}
+
+.especifica {
+    font-style: italic;
+}
+
+main h1 {
+    font-family: calibri;
+    font-size: 100px;
+    margin-bottom: 30px;
+    color: rgba(8, 8, 8, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+h2, h4
+{
+    font-weight: 200;
+}
+
+footer {
+    text-align: center;
+    height: 40px;
+    font-style: italic;
+}
